@@ -19,7 +19,7 @@ $(document).ready(function(){
     var result = "<strong>" + name + "</strong>, thank you for taking the time to complete our form. My infallible* advice: ";
     var thanks = '<img src="img/thankyou.png" alt="thank you!">';
 
-    long-form alerts
+    // long-form alerts
     if (!name) {
       $("#name-warning").show();
       exit;
