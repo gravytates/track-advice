@@ -6,3 +6,7 @@
 .not-showing {
   display: none;
 }
+
+#name {
+  margin-bottom: 10px;
+}
