@@ -19,6 +19,9 @@
         <p>(*advice is not infallible)</p>
       </div>
 
+      <!--empty div, built in css-->
+      <div id="background"></div>
+
       <!-- intro and questionaire -->
       <div id="form-wrapper">
         <h3>Fill out this form to see which Epicodus track may be best for you! If you would like to learn more about the Epicodus school for programming, please check out their website, <a href="https://www.epicodus.com/" target="_blank">here</a>.</h3>
@@ -48,7 +51,7 @@
           </div>
 
           <div class="form-group">
-            <label for="platform">While overlap is common, are you more drawn towards mobile development or internal software development?</label><br>
+            <label for="platform">While overlap is common, are you more drawn towards mobile development, or internal software development?</label><br>
             <select class="form-control" id="platform">
               <option selected="selected" disabled>Choose your answer</option>
               <option value="mobile">Mobile development.</option>
@@ -57,7 +60,7 @@
           </div>
 
           <div class="form-group">
-            <label for="front-back">In websites, are you more interested in back-end programming or front-end design and aesthetic?</label><br>
+            <label for="front-back">In websites, are you more interested in back-end programming, or front-end design and aesthetic?</label><br>
             <select class="form-control" id="front-back">
               <option selected="selected" disabled>Choose your answer</option>
               <option value="back">Back-end.</option>
@@ -74,30 +77,35 @@
       <div class="not-showing" id="wait">
         <p><span class="result"></span> Hold off on enrolling until the money and schedule is right. Keep at it though! There are plenty of free courses available online like <a href="https://www.learnhowtoprogram.com/intro-to-programming/getting-started-at-epicodus-64627971-b5be-49e7-a8d7-7ca55d0c9e88/learn-how-to-program" >Learn how to program</a>, which is the same material that epicodus covers!
         </p>
+        <span class="thanks"></span>
       </div>
 
       <div class="not-showing" id="java">
         <p><span class="result"></span> Enter the
           <strong>Java/Android</strong> cohort! This track is great for those who want to learn Android user interfaces. Java has been around a long time and is in high demand to ensure high-performance applications run smoothly.
         </p>
+        <span class="thanks"></span>
       </div>
 
       <div class="not-showing" id="C">
         <p><span class="result"></span> Enter the
           <strong>C#/.NET</strong> cohort! This track is great for those who want to work in established businesses, and program internal software. C# has been around a long time, has the backing of <em>Microsoft</em>, and its demand has never been higher!
         </p>
+        <span class="thanks"></span>
       </div>
 
       <div class="not-showing" id="design">
         <p><span class="result"></span> Enter the
           <strong>CSS/Design</strong> cohort! Do you want to stylistically set your projects apart? CSS/Design is amazing for those who want to learn the full command and intricacies of CSS, and the fundamentals of design--without so much focus on back end programming. A keen eye always commands top dollar!
         </p>
+        <span class="thanks"></span>
       </div>
 
       <div class="not-showing" id="ruby">
         <p><span class="result"></span> Enter the
-          <strong>Ruby/Rails</strong> cohort! This track is great for those who want to stay ahead of the curve! Ruby was designed for its elegance, clarity and speed of use. If you want to help lift start-ups off the ground, while developing high functioning applications, this track will fit the bill!
+          <strong>Ruby/Rails</strong> cohort! This track is great for those who want to stay ahead of the curve. Ruby was designed for its elegance, clarity and speed of use. If you want to help lift start-ups off the ground, while developing high functioning applications, this track will fit the bill!
         </p>
+        <span class="thanks"></span>
       </div>
 
     </div>

@@ -63,7 +63,7 @@ $(document).ready(function(){
     };
 
     $(".result").html(result);
-    $("#form-wrapper").hide();
+    $("#form-wrapper").slideUp();
 
 // logic to choose track/advice. parsed down from many longer lines!
     if (cost === "no") {
