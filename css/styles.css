@@ -11,6 +11,12 @@ img {
   margin: auto;
 }
 
+.not-showing > img {
+  display: block;
+  width: 150px;
+  padding-bottom: 20px;
+}
+
 .btn {
   margin-bottom: 40px;
 }
@@ -30,14 +36,13 @@ img {
 
 .not-showing {
   display: none;
+}
+
+.resultp {
   background-color: rgba(226, 206, 179, 0.7);
   border-radius: 5px;
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.end {
-  text-align: center;
 }
 
 #background {
