@@ -1,0 +1,8 @@
+.warning {
+  display: none;
+  color: red;
+}
+
+.not-showing {
+  display: none;
+}

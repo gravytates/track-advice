@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" style="text/css">
+  <script type="text/javascript" src="js/jquery-3.2.0.js">
+  </script>
+  <script type="text/javascript" src="js/scripts.js">
+  </script>
+  <title>Track Advice</title>
+</head>
+  <body>
+    <div class="container">
+
+      <!-- intro and title -->
+      <h1>Infallible* Programming Track Advice</h1>
+      <p>(*advice is not infallible)</p>
+      <h3>Fill out this form to see which Epicodus track may be best for you! If you would like to learn more about the Epicodus school for programming, please check out their website, <a href="https://www.epicodus.com/" target="_blank">here</a>.</h3>
+
+      <!-- questionairre -->
+      <div id="form-wrapper">
+        <form id="questionaire">
+          <div id="name">
+            <label>Name</label><br>
+            <input></input><span class="warning" id="name-warning">  Please enter your name</span>
+          </div>
+
+          <div class="form-group">
+            <label for="cost">Can you afford to devote $5,000 and six months of your time to change your life?</label><br>
+            <select class="form-control" id="cost">
+              <option selected="selected" disabled>Choose your answer</option>
+              <option value="yes">Yes!</option>
+              <option value="no">Not quite.</option>
+            </select><span class="warning" id="cost-warning">Please select an option</span>
+          </div>
+
+          <div class="form-group">
+            <label for="pace">Do you prefer established corporations and software, or ever evolving businesses and technology?</label><br>
+            <select class="form-control" id="pace">
+              <option selected="selected" disabled>Choose your answer</option>
+              <option value="established">Established Settings.</option>
+              <option value="evolving">Evolving Settings.</option>
+            </select><span class="warning" id="pace-warning">Please select an option</span>
+          </div>
+
+          <div class="form-group">
+            <label for="platform">While overlap is common, are you more drawn towards mobile development or internal software development?</label><br>
+            <select class="form-control" id="platform">
+              <option selected="selected" disabled>Choose your answer</option>
+              <option value="mobile">Mobile development.</option>
+              <option value="internal">Internal software development.</option>
+            </select><span class="warning" id="platform-warning">Please select an option</span>
+          </div>
+
+          <div class="form-group">
+            <label for="front-back">In websites, are you more interested in back-end programming or front-end design and aesthetic?</label><br>
+            <select class="form-control" id="front-back">
+              <option selected="selected" disabled>Choose your answer</option>
+              <option value="back">Back-end.</option>
+              <option value="front">Front-end.</option>
+            </select><span class="warning" id="front-back-warning">Please select an option</span>
+          </div>
+
+          <button type="submit" class="btn btn-info">Find Your Track!</button>
+        </form>
+        <!-- form-wrapper div -->
+      </div>
+
+      <!-- results -->
+      <div class="not-showing" id="java">
+        <p><span class="result"></span>
+          <strong>Java/Android</strong>! This track is great for those who want to learn Android user interfaces. Java has been around a long time and is in high demand to ensure high-performance applications run smoothly.
+        </p>
+      </div>
+
+      <div class="not-showing" id="C#">
+        <p><span class="result"></span>
+          <strong>C#/.NET</strong>! This track is great for those who want to work in established businesses, and program internal software. C# has been around a long time, has the backing of <em>Microsoft</em>, and its demand has never been higher!
+        </p>
+      </div>
+
+      <div class="not-showing" id="design">
+        <p><span class="result"></span>
+          <strong>CSS/Design</strong>! Do you want to stylistically set your projects apart? CSS/Design is amazing for those who want to learn the full command and intricacies of CSS, and the fundamentals of design--without so much focus on back end programming. A keen eye always commands top dollar!
+        </p>
+      </div>
+
+      <div class="not-showing" id="Ruby">
+        <p><span class="result"></span>
+          <strong>Ruby/Rails</strong>! This track is great for those who want to stay ahead of the curve! Ruby was designed for its elegance, clarity and speed of use. If you want to help lift start-ups off the ground, while developing high functioning applications, this track will fit the bill!
+        </p>
+      </div>
+
+    </div>
+  </body>
+</html>
