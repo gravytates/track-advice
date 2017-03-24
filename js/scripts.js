@@ -13,6 +13,20 @@ $(document).ready(function(){
     var frontback = $("#front-back").val();
     var result = "<strong>" + name + "</strong>, thank you for taking the time to complete our form. My infallible* advice: ";
 
+    // attempt to refractor useralerts
+
+    // var useralert = function(field, flag) {
+    //   if (!field) {
+    //     flag;
+    //     exit;
+    //   };
+    //
+    // useralert(name, ($("#name-warning").show()));
+    // useralert(cost, $("#cost-warning"));
+    // useralert(pace, $("#pace-warning"));
+    // useralert(platform, $("#platform-warning"));
+    // useralert(frontback, $("#front-back-warning"));
+
     if (!name) {
       $("#name-warning").show();
       exit;
@@ -65,7 +79,6 @@ $(document).ready(function(){
         $("#ruby").show();
       }
     };
-    alert("test");
   });
 
 
