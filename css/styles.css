@@ -21,6 +21,14 @@ img {
 .color-change {
   background-color: black;
   color: white;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
 }
 
 .not-showing > img {
