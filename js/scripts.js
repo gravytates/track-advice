@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+// background color button toggle
+  $("#change").click(function(){
+    $("label, .container, .resultp, #background").toggleClass("color-change");
+  });
+
 // function ran upon submission of the questionaire
   $("#questionaire").submit(function(event) {
 

@@ -11,6 +11,18 @@ img {
   margin: auto;
 }
 
+.resultp {
+  background-color: rgba(226, 206, 179, 0.7);
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.color-change {
+  background-color: black;
+  color: white;
+}
+
 .not-showing > img {
   display: block;
   width: 150px;
@@ -38,12 +50,6 @@ img {
   display: none;
 }
 
-.resultp {
-  background-color: rgba(226, 206, 179, 0.7);
-  border-radius: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
 #background {
   background-image: url(../img/background2.jpg);
