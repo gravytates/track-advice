@@ -13,15 +13,48 @@ $(document).ready(function(){
     var frontback = $("#front-back").val();
     var result = "<strong>" + name + "</strong>, thank you for taking the time to complete our form. My infallible* advice: ";
 
+    if (!name) {
+      $("#name-warning").show();
+      exit;
+    } else {
+      $("#name-warning").hide();
+    };
+
+    if (!cost) {
+      $("#cost-warning").show();
+      exit;
+    } else {
+      $("#cost-warning").hide();
+    };
+
+    if (!pace) {
+      $("#pace-warning").show();
+      exit;
+    } else {
+      $("#pace-warning").hide();
+    };
+
+    if (!platform) {
+      $("#platform-warning").show();
+      exit;
+    } else {
+      $("#platform-warning").hide();
+    };
+
+    if (!frontback) {
+      $("#front-back-warning").show();
+      exit;
+    } else {
+      $("#front-back-warning").hide();
+    };
+
     $(".result").html(result);
     $("#form-wrapper").hide();
 
-
-
+// logic to choose track/advice. parsed down from many longer lines!
     if (cost === "no") {
       $("#wait").show();
     } else {
-
       if (platform === "mobile") {
         $("#java").show();
       } else if (pace === "established" && platform === "internal" && frontback === "back") {
@@ -31,42 +64,8 @@ $(document).ready(function(){
       } else {
         $("#ruby").show();
       }
-    
-      // } else if (pace === "evolving" && platform === "mobile") {
-      //   $("#java").show();
-      // }
-
-
-
-
-
     };
-
-    //   // show specific result
-    //   if (entertainment === "music") {
-    //     $("#old-music").show();
-    //   } else if (entertainment === "books") {
-    //     $("#old-books").show();
-    //   } else {
-    //     $("#old-movies").show();
-    //   }
-    //
-    // } else {
-    //   // if user is less than 40, check prefered entertainment
-    //   // show specific result
-    //   if (entertainment === "music") {
-    //     $("#young-music").show();
-    //   } else if (entertainment === "books") {
-    //     $("#young-books").show();
-    //   } else {
-    //     $("#young-movies").show();
-    //   }
-    //
-    // };
-
-
     alert("test");
-
   });
 
 
