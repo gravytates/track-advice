@@ -14,59 +14,43 @@ $(document).ready(function(){
     var result = "<strong>" + name + "</strong>, thank you for taking the time to complete our form. My infallible* advice: ";
     var thanks = '<img src="img/thankyou.png" alt="thank you!">';
 
-    // attempt to refractor useralerts
-
-    // var useralert = function(field, flag) {
-    //   if (!field) {
-    //     flag;
-    //     exit;
-    //   };
-    //
-    // useralert(name, ($("#name-warning").show()));
-    // useralert(cost, $("#cost-warning"));
-    // useralert(pace, $("#pace-warning"));
-    // useralert(platform, $("#platform-warning"));
-    // useralert(frontback, $("#front-back-warning"));
-
     // long-form alerts
+    if (!name) {
+      $("#name-warning").show();
+      exit;
+    } else {
+      $("#name-warning").hide();
+    };
 
-    // if (!name) {
-    //   $("#name-warning").show();
-    //   exit;
-    // } else {
-    //   $("#name-warning").hide();
-    // };
-    //
-    // if (!cost) {
-    //   $("#cost-warning").show();
-    //   exit;
-    // } else {
-    //   $("#cost-warning").hide();
-    // };
-    //
-    // if (!pace) {
-    //   $("#pace-warning").show();
-    //   exit;
-    // } else {
-    //   $("#pace-warning").hide();
-    // };
-    //
-    // if (!platform) {
-    //   $("#platform-warning").show();
-    //   exit;
-    // } else {
-    //   $("#platform-warning").hide();
-    // };
-    //
-    // if (!frontback) {
-    //   $("#front-back-warning").show();
-    //   exit;
-    // } else {
-    //   $("#front-back-warning").hide();
-    // };
+    if (!cost) {
+      $("#cost-warning").show();
+      exit;
+    } else {
+      $("#cost-warning").hide();
+    };
 
-    // page change and results
+    if (!pace) {
+      $("#pace-warning").show();
+      exit;
+    } else {
+      $("#pace-warning").hide();
+    };
 
+    if (!platform) {
+      $("#platform-warning").show();
+      exit;
+    } else {
+      $("#platform-warning").hide();
+    };
+
+    if (!frontback) {
+      $("#front-back-warning").show();
+      exit;
+    } else {
+      $("#front-back-warning").hide();
+    };
+
+    // // page change and results
     $(".result").html(result);
     $("#form-wrapper").slideUp();
     $(".thanks").html(thanks).show();
@@ -86,8 +70,4 @@ $(document).ready(function(){
       }
     };
   });
-
-
-
-
 });
