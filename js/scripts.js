@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 // background color button toggle
   $("#change").click(function(){
-    $(".container, #background, label, .resultp").toggleClass("color-change");
+    $(".container, #background").toggleClass("color-change");
   });
 
 // function ran upon submission of the questionaire
