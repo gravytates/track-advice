@@ -1,6 +1,6 @@
 # _Program Track Advice for Epicodus_
 
-#### _Track suggestion project: week 2 code review for epicodus_
+#### _Track suggestion project: week 2 code review for epicodus. Site can be viewed in browser at 'https://gravytates.github.io/track-advice' _
 
 #### By _Grady L Shelton_
 
@@ -20,7 +20,7 @@ _This suggestion project asks users to input data into a form. Answers are branc
 _Alternatively_
 
 * _Open web browser (with internet connection)_
-* _Enter into browser 'https://gravytates.github.io/track-advice.html'_
+* _Enter into browser 'https://gravytates.github.io/track-advice'_
 
 ## Known Bugs
 
