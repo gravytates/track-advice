@@ -6,7 +6,7 @@
 
 ## Description
 
-_This suggestion project asks users to input data into a form. Answers are branched to 5 different results including: Ruby/Rails, C#/.NET, CSS/Design, Java/Android, and advice to not yet enroll. Logic is broken into an if/else statement with one nested if/else if/else if/else sub-statement. User warnings are displayed for incomplete forms using five additional individual if/else statements. Results contain extra info about specific advice/track._
+_This suggestion project asks users to input data into a form. Answers are branched to 5 different results including: Ruby/Rails, C#/.NET, CSS/Design, Java/Android, and advice to not yet enroll. Logic is broken into an if/else statement with one nested if/else if/else if/else sub-statement. User warnings are displayed for incomplete forms using five additional individual if/else statements. Results contain extra info about specific advice/track. Extra addition of a background color changing button that toggles between a scenic photo with dark text and a black background with white text._
 
 ## Setup/Installation Requirements
 

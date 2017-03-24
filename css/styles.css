@@ -68,6 +68,11 @@ img {
   margin-bottom: 10px;
 }
 
+/*prevents name input text from changing to white(on white) with the background color toggle*/
+#name > input {
+  color: black;
+}
+
 #form-wrapper {
   margin-bottom: 50px;
 }
