@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 // background color button toggle
   $("#change").click(function(){
-    $("label, .container, .resultp, #background").toggleClass("color-change");
+    $(".container, #background, label, .resultp").toggleClass("color-change");
   });
 
 // function ran upon submission of the questionaire
@@ -20,40 +20,40 @@ $(document).ready(function(){
     var thanks = '<img src="img/thankyou.png" alt="thank you!">';
 
     // long-form alerts
-    if (!name) {
-      $("#name-warning").show();
-      exit;
-    } else {
-      $("#name-warning").hide();
-    };
-
-    if (!cost) {
-      $("#cost-warning").show();
-      exit;
-    } else {
-      $("#cost-warning").hide();
-    };
-
-    if (!pace) {
-      $("#pace-warning").show();
-      exit;
-    } else {
-      $("#pace-warning").hide();
-    };
-
-    if (!platform) {
-      $("#platform-warning").show();
-      exit;
-    } else {
-      $("#platform-warning").hide();
-    };
-
-    if (!frontback) {
-      $("#front-back-warning").show();
-      exit;
-    } else {
-      $("#front-back-warning").hide();
-    };
+    // if (!name) {
+    //   $("#name-warning").show();
+    //   exit;
+    // } else {
+    //   $("#name-warning").hide();
+    // };
+    //
+    // if (!cost) {
+    //   $("#cost-warning").show();
+    //   exit;
+    // } else {
+    //   $("#cost-warning").hide();
+    // };
+    //
+    // if (!pace) {
+    //   $("#pace-warning").show();
+    //   exit;
+    // } else {
+    //   $("#pace-warning").hide();
+    // };
+    //
+    // if (!platform) {
+    //   $("#platform-warning").show();
+    //   exit;
+    // } else {
+    //   $("#platform-warning").hide();
+    // };
+    //
+    // if (!frontback) {
+    //   $("#front-back-warning").show();
+    //   exit;
+    // } else {
+    //   $("#front-back-warning").hide();
+    // };
 
     // // page change and results
     $(".result").html(result);
